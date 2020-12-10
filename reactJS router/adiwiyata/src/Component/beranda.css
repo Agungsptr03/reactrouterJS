@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titel{
+    margin: 30px;
+}
+.titel h1{
+    text-align: center;
+    color: black;
+}
+.line{
+    width: 200px;
+    height: 4px;
+    background: linear-gradient(to right ,#009879, #024e3f);
+    margin: 25px auto;
+
+}
+.box{
+    margin: 0;
+    display: flex;
+    width: 1500px;
+    margin-top: 100px;
+}
+.box .gambar{
+    width: 250px;
+    margin: 50px;
+}
+.box .gambar img{
+    position: absolute;
+    width: 500px;
+    margin: 25px;
+    left: 100px;
+    top: 960px;
+}
+.box .jelas{
+    width: 500px;
+    padding-left: 500px;
+}
+.box .jelas p{
+    position: absolute;
+    width: 600px;
+    left: 780px;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+}

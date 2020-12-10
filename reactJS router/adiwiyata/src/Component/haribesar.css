@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titel{
+    margin: 30px;
+}
+.titel h1{
+    text-align: center;
+    color: black;
+}
+.line{
+    width: 200px;
+    height: 4px;
+    background: linear-gradient(to right ,#009879, #024e3f);
+    margin: 25px auto;
+}
+.konten{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 480px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.konten thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+.konten th, 
+.konten td{
+    padding: 12px 15px;
+}
+.konten tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+.konten tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.konten tbody tr:last-of-type{
+    border-bottom: 2px solid #009879;
+}
